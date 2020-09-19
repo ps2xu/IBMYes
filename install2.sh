@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "this now vtworay cloudfoundry code 20200919 - code by ps2xu"
 read -p "请输入应用程序名称:" appname
 read -p "请设置你的容器内存大小(默认256):" ramsize
 if [ -z "$ramsize" ];then
