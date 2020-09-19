@@ -3,7 +3,7 @@ SH_PATH=$(cd "$(dirname "$0")";pwd)
 cd ${SH_PATH}
 
 create_mainfest_file(){
-    echo "进行配置。。。"
+    echo "Now...进行配置。。。"
     read -p "请输入你的应用名称：" IBM_APP_NAME
     echo "应用名称：${IBM_APP_NAME}"
     read -p "请输入你的应用内存大小(默认256)：" IBM_MEM_SIZE
